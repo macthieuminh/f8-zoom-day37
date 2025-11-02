@@ -1,4 +1,4 @@
-import LogoSrc from "../../../../images/f8-logo.png"
+import LogoSrc from "../../../../assets/images/f8-logo.png"
 import styles from "./AppLogo.module.scss"
 import { NavLink } from "react-router"
 export default function AppLogo() {

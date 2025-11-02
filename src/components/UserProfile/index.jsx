@@ -1,7 +1,6 @@
 import PropTypes from "prop-types"
 import withLoading from "../../hoc/withLoading"
-import { useState, useEffect } from "react"
-import avatar from "../../images/avatar_placeholder.png"
+import avatar from "../../assets/images/avatar_placeholder.png"
 import styles from "./UserProfile.module.scss"
 
 const user = [
