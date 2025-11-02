@@ -1,5 +1,5 @@
 import styles from "./SearchForm.module.scss"
-import { IconCourse, IconPost, IconVideo } from "../../../../icons/"
+import { IconCourse, IconPost, IconVideo } from "../../../../icons"
 import { useState, useEffect, useRef } from "react"
 
 export default function SearchForm() {

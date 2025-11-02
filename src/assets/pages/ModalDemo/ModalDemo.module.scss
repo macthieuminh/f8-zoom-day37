@@ -1,0 +1,60 @@
+.container {
+    background: #fff;
+    color: #111;
+    padding: 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.btn {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: background 160ms ease, color 160ms ease, transform 80ms ease,
+        box-shadow 160ms ease, border-color 160ms ease;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.btn:active {
+    transform: translateY(1px) scale(0.99);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.btn:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+.toggle {
+    position: fixed;
+    z-index: 1000;
+    right: 16px;
+    bottom: 24px;
+}
+
+.btn + .btn {
+    margin-left: 8px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}

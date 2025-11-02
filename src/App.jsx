@@ -1,6 +1,6 @@
 import AppRoutes from "./assets/components/AppRoutes"
-function App() {
+import "./App.css"
+
+export default function App() {
     return <AppRoutes />
 }
-
-export default App
